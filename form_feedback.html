@@ -7,5 +7,24 @@
 </head>
 <body>
     
+    <form action="/submit" method="post">
+    <label for="name">username:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="radio" name="gender" value="male" id="male">
+    <label for="male">Мужской</label>
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">Женский</label>
+    <input type="checkbox" name="agree" id="agree" required>
+    <label for="agree">Согласен с условиями</label>
+    <select name="country">
+    <option value="">Выберите страну</option>
+    <option value="ru">Россия</option>
+    <option value="us">США</option>
+    <option value="gr">Германия</option>
+</select>
+    <button type="submit">Отправить</button>
+</form>
 </body>
 </html>
