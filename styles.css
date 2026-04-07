@@ -9,3 +9,42 @@ table {
 border-collapse: collapse;
 
 }
+
+form {
+  max-width: 480px; /* Ограничение формы по ширине */
+  margin: 0 auto; /* Выравнивание формы по центру */
+  padding: 20px; /* Внутренние отступы */
+  border: 1px solid #ccc; /* Обводка */
+  border-radius: 5px; /* Скругление */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 8px;
+  background-color: #3CBC8D;
+  color: white;
+}
+
+textarea {
+  height: 150px; /* Высота поля */
+  resize: none; /* Запрет на изменение ширины и высоты пользователем */
+}
+
+button:hover {
+  opacity: 0.8; /* Прозрачность при наведении */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: 10px;
+  height: 10px;
+}
+
+.checkbox-label,
+.radio-label {
+  padding-left: 5px;
+}
