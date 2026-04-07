@@ -4,15 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>«Моя персональная веб-страница»</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>«Моя персональная веб-страница»</h1>
     <h2>«О себе»</h2>
     <p>
         Родился в Тюменской области. Живу в ЕКБ  учусь на разработку ПО в МИТУ.
+        <p>
+            <img src="i_am.jpg" 
+            alt="Мое фото" 
+            width="300">
+        </p>
+        <p><a href="https://github.com/jgnom/mitu_html">Мой github</a></p>
+        <p>
+            <a href="#my_favorite">Мои увлечения</a>
+        </p>
+        <p>
+            <a href="#contacts">Контакты</a>
+        </p>
     </p>
-
-    <h3>«Мои увлечения»</h3>
+        <table>
+        <caption>Мои навыки</caption>
+        <tr>
+            <td>Язык программирования</td>
+            <td>Python</td>
+        </tr>
+        <tr>
+            <td>Владение языками</td>
+            <td>Русский, Английский</td>
+        </tr>
+        <tr>
+            <td>Категоря прав на АВТО</td>
+            <td>категория "B"</td>
+        </tr>
+    </table>
+    <h3>
+        <article id="my_favorite">Мои увлечения</article>
+    </h3>
+    
     <p>
         <ul>
             <li>Программирование</li>
@@ -26,7 +56,9 @@
             <li>Python для чайников</li>
         </ol>
     </p>
-    <h4>«Контакты»</h4>
+    <h4>
+        <article id="contacts">«Контакты»</article>
+    </h4>
     <p>
         email: johnny_85@list.ru
     </p>
